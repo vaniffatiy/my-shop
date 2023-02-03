@@ -1,3 +1,4 @@
+# 2 login
 from selenium import webdriver
 driver = webdriver.Chrome()
 driver.implicitly_wait(20)
@@ -9,7 +10,7 @@ driver.find_element_by_id("reg_password").send_keys("svyatoslavM73")
 driver.find_element_by_css_selector(".woocomerce-FormRow.form-row>input:nth-child(3)").click()
 driver.quit()
 
-
+# 3 login
 from selenium import webdriver
 driver = webdriver.Chrome()
 from selenium.webdriver.common.by import By
